@@ -80,20 +80,20 @@ const Header = () => {
           </Typography>
         </Box>
       )}
-      {location.pathname === "/login-user" && (
-        <Box className="header-notication">
-          <Box>
-            <NotificationsIcon fontSize="large" />
-            <Typography className="notice-status">1</Typography>
-          </Box>
-
-          <Box>
-            <FavoriteIcon fontSize="large" />
-            <Typography className="notice-status">1</Typography>
-          </Box>
-          <img className="header-avatar" src={Avatar} />
+      {/* {location.pathname === "/login-user" && ( */}
+      <Box className="header-notication">
+        <Box>
+          <NotificationsIcon fontSize="large" />
+          <Typography className="notice-status">1</Typography>
         </Box>
-      )}
+
+        <Box>
+          <FavoriteIcon fontSize="large" />
+          <Typography className="notice-status">1</Typography>
+        </Box>
+        <img className="header-avatar" src={Avatar} />
+      </Box>
+      {/* )} */}
     </HeadrStyled>
   );
 };

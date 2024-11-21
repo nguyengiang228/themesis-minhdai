@@ -8,6 +8,7 @@ import LoginPage from "./pages/Login/index.tsx";
 import RegisterPage from "./pages/Register/index.tsx";
 import ForgotPassPage from "./pages/ForgotPass/index.tsx";
 import NewPassword from "./pages/ForgotPass/component/index.tsx";
+import IntroducePage from "./pages/IntroducePage/index.tsx";
 
 const router = createBrowserRouter(
   [
@@ -34,6 +35,10 @@ const router = createBrowserRouter(
     {
       path: "/news-pass",
       element: <NewPassword />,
+    },
+    {
+      path: "/introduce",
+      element: <IntroducePage />,
     },
   ].map((x) => ({
     ...x,

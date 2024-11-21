@@ -5,10 +5,11 @@ import Banner2 from "../../assets/banners/banner2.jpg";
 import Banner3 from "../../assets/banners/banner3.jpg";
 import Banner4 from "../../assets/banners/banner4.jpg";
 import "./styled.css";
+import { BannerStyle } from "./styled";
 
 const Banner = () => {
   return (
-    <div className="slide-container">
+    <BannerStyle>
       {/* <img src={Banner1} alt="" className="w-full h-full" /> */}
       <Slide
         slidesToScroll={1}
@@ -32,7 +33,7 @@ const Banner = () => {
           <img className="banner-image-jpg" src={Banner4} alt="" />
         </div>
       </Slide>
-    </div>
+    </BannerStyle>
   );
 };
 
