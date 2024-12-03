@@ -4,7 +4,7 @@ import Banner1 from "../../assets/banners/banner1.png";
 import Banner2 from "../../assets/banners/banner2.jpg";
 import Banner3 from "../../assets/banners/banner3.jpg";
 import Banner4 from "../../assets/banners/banner4.jpg";
-import "./styled.css";
+// import "./styled.css";
 import { BannerStyle } from "./styled";
 
 const Banner = () => {

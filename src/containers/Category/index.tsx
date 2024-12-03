@@ -3,6 +3,12 @@ import { useRef, useState } from "react";
 import "./style.css";
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
+import House1 from "../../assets/image/img2.png";
+import House2 from "../../assets/image/img1.png";
+import House8 from "../../assets/image/img8.png";
+import House9 from "../../assets/image/img9.png";
+import House10 from "../../assets/image/img10.png";
+import House3 from "../../assets/image/img3.png";
 interface Image {
   id: number;
   url: string;
@@ -16,32 +22,32 @@ const Category = () => {
   const images: Image[] = [
     {
       id: 1,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/821d089df5100f0501e75f381dac31b6/detailed",
+      url: House1,
       title: "Chung cư, căn hộ",
     },
     {
       id: 2,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/8a5e4101cf990a16a4fe0d0512171e61/detailed",
+      url: House2,
       title: "Đất nền",
     },
     {
       id: 3,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/c5d7eac740cb7a7aea7e34c53670edb5/detailed",
+      url: House8,
       title: "Khu biệt thự liền kề",
     },
     {
       id: 4,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/5abae11c7e9b3932465224e8df34bb72/detailed",
+      url: House9,
       title: "Nhà phố thương mại",
     },
     {
       id: 5,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/8efd379bab9b374bd16b77566cf4f5d2/detailed",
+      url: House10,
       title: "Chung cư ngoại thành",
     },
     {
       id: 6,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/c7d28ff7d16c73c5098633471543b0e1/detailed",
+      url: House3,
       title: "Nhà ngoại thành",
     },
   ];

@@ -9,6 +9,8 @@ import RegisterPage from "./pages/Register/index.tsx";
 import ForgotPassPage from "./pages/ForgotPass/index.tsx";
 import NewPassword from "./pages/ForgotPass/component/index.tsx";
 import IntroducePage from "./pages/IntroducePage/index.tsx";
+import FeedbackPage from "./pages/Feedback/index.tsx";
+import NewsPage from "./pages/News/index.tsx";
 
 const router = createBrowserRouter(
   [
@@ -39,6 +41,14 @@ const router = createBrowserRouter(
     {
       path: "/introduce",
       element: <IntroducePage />,
+    },
+    {
+      path: "/feedback",
+      element: <FeedbackPage />,
+    },
+    {
+      path: "/news",
+      element: <NewsPage />,
     },
   ].map((x) => ({
     ...x,

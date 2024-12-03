@@ -12,14 +12,16 @@ export const HeadrStyled = styled.div`
   .header {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
   }
   .header-menu-option {
-    width: 60%;
+    width: 58%;
+
     align-items: center;
     justify-content: space-between;
   }
   .header-menu-category {
-    width: 100%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -28,16 +30,33 @@ export const HeadrStyled = styled.div`
   .header-menu-category:hover {
     cursor: pointer;
   }
-
+  .header-login {
+    width: 12%;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+  }
   .login-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b7cee0;
+    color: #314c63;
+    border-radius: 5px;
     border-right: 1px solid #fff;
-    width: 5vw;
-    padding: 1px;
+    width: 5.5vw;
+    padding: 5px;
   }
   .register-text {
-    width: 4vw;
-    padding: 1px;
-    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #b7cee0;
+    color: #314c63;
+    width: 5.5vw;
+    padding: 5px;
+    margin-right: 0.5rem;
   }
 
   .login-text:hover,

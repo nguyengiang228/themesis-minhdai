@@ -9,7 +9,7 @@ const IntroducePage = () => {
   return (
     <IntroducePageStyle>
       <Header />
-      <MenuList />
+      {/* <MenuList /> */}
       <Banner />
       <Box className="introduce-containt">
         <Box className="introduce-block-1">

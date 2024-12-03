@@ -5,56 +5,61 @@ import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutl
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import FavoriteOutlinedIcon from "@mui/icons-material/FavoriteOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-
-interface Image {
-  id: number;
-  icon: any;
-  url: string;
-  title: string;
-}
+import House2 from "../../assets/image/img2.png";
+import House4 from "../../assets/image/img4.png";
+import House6 from "../../assets/image/img6.png";
+import House7 from "../../assets/image/img7.png";
+import House10 from "../../assets/image/img10.png";
+import House3 from "../../assets/image/img3.png";
+// interface Image {
+//   id: number;
+//   icon: any;
+//   url: string;
+//   title: string;
+// }
 
 const Favorites = () => {
   const sliderRef = useRef<HTMLDivElement | null>(null);
   const scrollAmount = 1500; // The amount to scroll when clicking the navigation buttons
 
-  const images: Image[] = [
+  const images = [
     {
       id: 1,
       icon: <FavoriteOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/9bab8ecb47d2cf7df827199e99f6c6c1/detailed",
+      url: House2,
       title:
         "Căn hộ Studio nội thất liền tường cao cấp - Vinhomes Thanh Hoá - chỉ với 400 triệu ban đầu",
     },
     {
       id: 2,
       icon: <FavoriteBorderOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/7364af6813695e279c25e0a85f363c6d/detailed",
+      url: House4,
       title: "Căn 1 ngủ, tòa trung tâm S209 Vinhomes Ocean Park Gia Lâm",
     },
     {
       id: 3,
       icon: <FavoriteBorderOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/17fd8e1ef38a7f6c49c46db92551a92f/detailed",
+      url: House6,
       title:
         "Căn hộ mini Láng – Đống Đa giáp Cầu Giấy 50m, 2 ngủ, full đồ gần ô tô đỗ",
     },
     {
       id: 4,
       icon: <FavoriteBorderOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/9bab8ecb47d2cf7df827199e99f6c6c1/detailed",
+      url: House7,
       title: "Căn 1 ngủ, tòa trung tâm S209 Vinhomes Ocean Park Gia Lâm",
     },
     {
       id: 5,
       icon: <FavoriteBorderOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/17fd8e1ef38a7f6c49c46db92551a92f/detailed",
+      url: House4,
       title:
         "Căn hộ mini Láng – Đống Đa giáp Cầu Giấy 50m, 2 ngủ, full đồ gần ô tô đỗ",
     },
     {
       id: 6,
       icon: <FavoriteBorderOutlinedIcon />,
-      url: "https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/7364af6813695e279c25e0a85f363c6d/detailed",
+      url: House6,
       title:
         "Căn hộ Studio nội thất liền tường cao cấp - Vinhomes Thanh Hoá - chỉ với 400 triệu ban đầu",
     },
@@ -86,7 +91,7 @@ const Favorites = () => {
               <img className="image-slider" alt="sliderImage" src={image.url} />
               <Box
                 sx={{
-                  transform: "translate(21rem, -3rem)",
+                  transform: "translate(2rem, -16rem)",
                   color: image.id === 1 ? "red" : "#fff",
                   width: "30px",
                 }}

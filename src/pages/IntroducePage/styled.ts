@@ -2,10 +2,11 @@ import styled from "@emotion/styled";
 
 export const IntroducePageStyle = styled.div`
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   .introduce-containt {
     display: flex;
-    margin: 5rem;
+    margin: 5rem 5rem 10rem 5rem;
+
     .introduce-block-1 {
       padding-right: 10rem;
     }

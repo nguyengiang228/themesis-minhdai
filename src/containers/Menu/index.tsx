@@ -30,7 +30,11 @@ const Menu = () => {
     <MenuStyle>
       <Box className="menu-selected-option">
         <Box>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl
+            variant="outlined"
+            size="small"
+            sx={{ m: 1, minWidth: 120 }}
+          >
             <InputLabel id="demo-simple-select-standard-label">
               Khu vực
             </InputLabel>
@@ -51,7 +55,11 @@ const Menu = () => {
           </FormControl>
         </Box>
         <Box>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl
+            variant="outlined"
+            size="small"
+            sx={{ m: 1, minWidth: 120 }}
+          >
             <InputLabel id="demo-simple-select-standard-label">
               Loại hình
             </InputLabel>
@@ -71,7 +79,11 @@ const Menu = () => {
           </FormControl>
         </Box>
         <Box>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl
+            variant="outlined"
+            size="small"
+            sx={{ m: 1, minWidth: 120 }}
+          >
             <InputLabel id="demo-simple-select-standard-label">
               Mức giá
             </InputLabel>
@@ -93,7 +105,11 @@ const Menu = () => {
           </FormControl>
         </Box>
         <Box>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl
+            variant="outlined"
+            size="small"
+            sx={{ m: 1, minWidth: 120 }}
+          >
             <InputLabel id="demo-simple-select-standard-label">
               Mức giá
             </InputLabel>
@@ -113,7 +129,11 @@ const Menu = () => {
           </FormControl>
         </Box>
         <Box>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl
+            variant="outlined"
+            size="small"
+            sx={{ m: 1, minWidth: 120 }}
+          >
             <InputLabel id="demo-simple-select-standard-label">
               Diện tích
             </InputLabel>

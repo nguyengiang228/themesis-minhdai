@@ -6,6 +6,8 @@ import Outstanding2 from "../../assets/image/outstanding2.png";
 import News1 from "../../assets/news/news1.png";
 import News2 from "../../assets/news/news2.png";
 import News3 from "../../assets/news/news3.png";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+
 const Outstanding = () => {
   return (
     <OutstandStyled>
@@ -149,6 +151,18 @@ const Outstanding = () => {
               </Button>
             </Box>
           </Box>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            textAlign: "center",
+          }}
+        >
+          <Typography>
+            Xem thêm <br />
+            <KeyboardArrowDownIcon />{" "}
+          </Typography>
         </Box>
       </Box>
       <Box className="outStanding-news">

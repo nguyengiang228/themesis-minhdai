@@ -2,10 +2,12 @@ import styled from "@emotion/styled";
 
 export const MenuStyle = styled.div`
   display: flex;
-  height: 10vh;
+  height: 8vh;
   align-items: center;
   color: #000;
   border-bottom: 1px solid #ccc;
+  margin: 2rem 0;
+  border: 1px solid #ccc;
   .menu-selected-option {
     display: flex;
     width: 55%;
