@@ -37,7 +37,10 @@ const Header = () => {
             Trang chủ
           </Typography>
         </Box>
-        <Box className="header-menu-category">
+        <Box
+          className="header-menu-category"
+          onClick={() => navigate("/project")}
+        >
           <ListIcon fontSize="large" />
           <Typography sx={{ "&:hover": { fontWeight: "bold" } }} fontSize={17}>
             Dự án
