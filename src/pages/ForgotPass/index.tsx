@@ -13,6 +13,7 @@ import { ThemeProvider } from "styled-components";
 import { ForgotPassStyle } from "./styled";
 import { useState } from "react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import Login1 from "../../assets/image/image1.png";
 
 interface IUserData {
   email: string;
@@ -52,8 +53,7 @@ const ForgotPassPage = () => {
               sm={4}
               md={5}
               sx={{
-                backgroundImage:
-                  "url(https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/1594adf3c65404267d3f4e799feb7cde/detailed)",
+                backgroundImage: `url(${Login1})`,
                 backgroundRepeat: "no-repeat",
                 backgroundColor: (t) =>
                   t.palette.mode === "light"

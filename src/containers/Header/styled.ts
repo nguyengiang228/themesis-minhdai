@@ -69,6 +69,7 @@ export const HeadrStyled = styled.div`
     width: 170px;
     align-items: center;
     justify-content: space-between;
+    margin-right: 9rem;
     .header-avatar {
       width: 40px;
     }

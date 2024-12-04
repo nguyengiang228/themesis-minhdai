@@ -70,7 +70,10 @@ const Header = () => {
             Tin tức
           </Typography>
         </Box>
-        <Box className="header-menu-category">
+        <Box
+          onClick={() => navigate("/contact")}
+          className="header-menu-category"
+        >
           <PhoneIcon fontSize="large" />
           <Typography sx={{ "&:hover": { fontWeight: "bold" } }} fontSize={17}>
             Liên hệ

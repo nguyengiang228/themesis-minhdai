@@ -11,12 +11,6 @@ import House6 from "../../assets/image/img6.png";
 import House7 from "../../assets/image/img7.png";
 import House10 from "../../assets/image/img10.png";
 import House3 from "../../assets/image/img3.png";
-// interface Image {
-//   id: number;
-//   icon: any;
-//   url: string;
-//   title: string;
-// }
 
 const Favorites = () => {
   const sliderRef = useRef<HTMLDivElement | null>(null);

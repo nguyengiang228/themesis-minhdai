@@ -7,15 +7,20 @@ import News1 from "../../assets/news/news1.png";
 import News2 from "../../assets/news/news2.png";
 import News3 from "../../assets/news/news3.png";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useNavigate } from "react-router-dom";
 
 const Outstanding = () => {
+  const navigate = useNavigate();
   return (
     <OutstandStyled>
       <Box className="outStanding">
         <Typography fontWeight="bold" fontSize={30}>
           Bất động sản nổi bật
         </Typography>
-        <Box className="outstanding-container">
+        <Box
+          onClick={() => navigate("/child-page")}
+          className="outstanding-container"
+        >
           <Box className="outstanding-image">
             <img className="image" src={Outstanding1} />
             <div className="triangle"></div>
@@ -84,7 +89,10 @@ const Outstanding = () => {
             </Box>
           </Box>
         </Box>
-        <Box className="outstanding-container">
+        <Box
+          onClick={() => navigate("/child-page")}
+          className="outstanding-container"
+        >
           <Box className="outstanding-image">
             <img className="image" src={Outstanding2} />
             <div className="triangle"></div>
@@ -161,7 +169,7 @@ const Outstanding = () => {
         >
           <Typography>
             Xem thêm <br />
-            <KeyboardArrowDownIcon />{" "}
+            <KeyboardArrowDownIcon />
           </Typography>
         </Box>
       </Box>

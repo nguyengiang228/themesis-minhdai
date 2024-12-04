@@ -130,6 +130,17 @@ const FeedbackPage: React.FC = () => {
 
   return (
     <Box>
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "45px",
+          color: "#fff",
+          backgroundColor: "#baa360",
+        }}
+      />
       <Header />
       <Menu />
       <Box
