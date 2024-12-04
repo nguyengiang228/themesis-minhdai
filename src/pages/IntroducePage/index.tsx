@@ -8,6 +8,17 @@ import { Box, Typography } from "@mui/material";
 const IntroducePage = () => {
   return (
     <IntroducePageStyle>
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "45px",
+          color: "#fff",
+          backgroundColor: "#baa360",
+        }}
+      />
       <Header />
       {/* <MenuList /> */}
       <Banner />

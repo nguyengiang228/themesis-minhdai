@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const FooterStyled = styled.div`
   margin-top: 2rem;
-  padding: 1rem 4.5rem;
+  padding: 1rem 5rem;
   height: 40vh;
   color: #fff;
   background-color: #324c63;
@@ -15,6 +15,7 @@ export const FooterStyled = styled.div`
     }
   }
   .footer-info {
+    width: 86%;
     margin: 1rem 7em;
     display: flex;
     justify-content: space-between;

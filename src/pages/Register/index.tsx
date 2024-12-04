@@ -14,7 +14,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { RegisterStyled } from "./styled";
-
+import Login1 from "../../assets/image/image1.png";
 interface IUserData {
   email: string;
   password: string;
@@ -51,8 +51,7 @@ const RegisterPage = () => {
               sm={4}
               md={5}
               sx={{
-                backgroundImage:
-                  "url(https://res-console.cloudinary.com/dmgozibet/media_explorer_thumbnails/1594adf3c65404267d3f4e799feb7cde/detailed)",
+                backgroundImage: `url(${Login1})`,
                 backgroundRepeat: "no-repeat",
                 backgroundColor: (t) =>
                   t.palette.mode === "light"
@@ -167,7 +166,7 @@ const RegisterPage = () => {
                   >
                     <Button
                       // type="submit"
-                      onClick={() => navigate("/login-user")}
+                      onClick={() => navigate("/login")}
                       variant="contained"
                       sx={{
                         width: { xs: "95%", xl: "50%" },

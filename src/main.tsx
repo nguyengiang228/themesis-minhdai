@@ -12,6 +12,8 @@ import IntroducePage from "./pages/IntroducePage/index.tsx";
 import FeedbackPage from "./pages/Feedback/index.tsx";
 import NewsPage from "./pages/News/index.tsx";
 import ProjectPage from "./pages/ProjectPage/index.tsx";
+import ContactPage from "./pages/Contact/index.tsx";
+import SliderScroll from "./components/Slider/SliderScroll.tsx";
 
 const router = createBrowserRouter(
   [
@@ -55,6 +57,11 @@ const router = createBrowserRouter(
       path: "/project",
       element: <ProjectPage />,
     },
+    {
+      path: "/contact",
+      element: <ContactPage />,
+    },
+    { path: "/child-page", element: <SliderScroll /> },
   ].map((x) => ({
     ...x,
     element: <ScrollToTop>{x.element}</ScrollToTop>,

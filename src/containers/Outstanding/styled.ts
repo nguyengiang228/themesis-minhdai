@@ -12,6 +12,7 @@ export const OutstandStyled = styled.div`
       display: flex;
       width: 100%;
       margin-bottom: 1rem;
+      cursor: pointer;
     }
     .outstanding-image {
       width: 50%;
