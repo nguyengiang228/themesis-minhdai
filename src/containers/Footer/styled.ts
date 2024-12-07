@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const FooterStyled = styled.div`
   margin-top: 2rem;
-  padding: 1rem 4.5rem;
+  padding: 1rem 6rem;
   height: 40vh;
   color: #fff;
   background-color: #324c63;

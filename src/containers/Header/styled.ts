@@ -6,7 +6,7 @@ export const HeadrStyled = styled.div`
   height: 8vh;
   display: flex;
   justify-content: space-around;
-  padding: 0;
+  padding: 0 6rem;
   border-bottom: 1px solid #ccc;
   color: #b9d2e8;
   .header {
@@ -32,7 +32,7 @@ export const HeadrStyled = styled.div`
   }
   .header-login {
     width: 12%;
-    margin-right: 5rem;
+    margin-right: 10rem;
     display: flex;
     align-items: center;
   }
@@ -69,6 +69,7 @@ export const HeadrStyled = styled.div`
     width: 170px;
     align-items: center;
     justify-content: space-between;
+    margin-right: 15rem;
     .header-avatar {
       width: 40px;
     }

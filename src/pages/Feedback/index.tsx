@@ -130,9 +130,20 @@ const FeedbackPage: React.FC = () => {
 
   return (
     <Box>
+      <Box
+        sx={{
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "45px",
+          color: "#fff",
+          backgroundColor: "#baa360",
+        }}
+      />
       <Header />
       <Menu />
-      <Box
+      {/* <Box
         width="40%"
         display="flex"
         justifyContent="space-around"
@@ -145,27 +156,24 @@ const FeedbackPage: React.FC = () => {
       >
         <Typography>Sắp xếp theo:</Typography>
 
-        {/* Dropdown: Giá cả */}
         <Select defaultValue="Giá cả" variant="standard" size="small">
           <MenuItem value="Giá cả">Giá cả</MenuItem>
           <MenuItem value="Cao đến thấp">Cao đến thấp</MenuItem>
           <MenuItem value="Thấp đến cao">Thấp đến cao</MenuItem>
         </Select>
 
-        {/* Dropdown: Tiện ích */}
         <Select defaultValue="Tiện ích" variant="standard" size="small">
           <MenuItem value="Tiện ích">Tiện ích</MenuItem>
           <MenuItem value="Wi-Fi">Wi-Fi</MenuItem>
           <MenuItem value="Hồ bơi">Hồ bơi</MenuItem>
         </Select>
 
-        {/* Dropdown: Tiến độ */}
         <Select defaultValue="Tiến độ" variant="standard" size="small">
           <MenuItem value="Tiến độ">Tiến độ</MenuItem>
           <MenuItem value="Hoàn thành">Hoàn thành</MenuItem>
           <MenuItem value="Đang xây dựng">Đang xây dựng</MenuItem>
         </Select>
-      </Box>
+      </Box> */}
       <Typography ml={8.5} sx={{ color: "#8a8989" }}>
         Trang chủ / <span style={{ color: "#000" }}>Phản hồi</span>
       </Typography>

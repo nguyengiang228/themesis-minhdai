@@ -7,11 +7,13 @@ import News1 from "../../assets/news/news1.png";
 import News2 from "../../assets/news/news2.png";
 import News3 from "../../assets/news/news3.png";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { useNavigate } from "react-router-dom";
 
 const Outstanding = () => {
+  const navigate = useNavigate();
   return (
     <OutstandStyled>
-      <Box className="outStanding">
+      <Box className="outStanding" onClick={() => navigate("/child-page")}>
         <Typography fontWeight="bold" fontSize={30}>
           Bất động sản nổi bật
         </Typography>

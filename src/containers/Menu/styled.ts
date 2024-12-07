@@ -5,13 +5,14 @@ export const MenuStyle = styled.div`
   height: 8vh;
   align-items: center;
   color: #000;
+  padding: 0 5rem;
   border-bottom: 1px solid #ccc;
   margin: 2rem 0;
   border: 1px solid #ccc;
   .menu-selected-option {
     display: flex;
     width: 55%;
-    padding: 0rem 2rem;
+    padding: 0rem 5rem;
     justify-content: space-around;
     align-items: center;
   }
